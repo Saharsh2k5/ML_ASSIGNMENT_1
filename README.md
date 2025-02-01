@@ -1,8 +1,8 @@
-#Human Activity Recognition (HAR) Assignment
+# Human Activity Recognition (HAR) Assignment
 Overview
 This repository contains the implementation and analysis of Human Activity Recognition (HAR) using accelerometer data from the UCI-HAR dataset. The assignment covers:
 
-#Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 Decision Tree modeling
 Prompt Engineering with LLMs
 Data Collection in real-world settings
@@ -13,14 +13,14 @@ CombineScript.py
 MakeDataset.py
 These scripts generate train, test, and validation splits.
 
-##Tasks Completed
-#Task 1: Exploratory Data Analysis (EDA)
+# Tasks Completed
+# Task 1: Exploratory Data Analysis (EDA)
   Plotted waveforms for different activity classes.
   Analyzed acceleration values to differentiate between static and dynamic activities.
   Applied PCA and TSFEL for feature extraction and visualization.
   Compared different feature extraction methods.
   Computed correlation matrix to identify redundant features.
-#Task 2: Decision Trees for HAR
+# Task 2: Decision Trees for HAR
   Implemented Decision Tree models using:
   Raw accelerometer data
   TSFEL features
@@ -28,12 +28,12 @@ These scripts generate train, test, and validation splits.
   Evaluated models using accuracy, precision, recall, and confusion matrix.
   Trained Decision Trees with varying depths (2-8) and analyzed performance.
   Investigated poor-performing participants/activities.
-#Task 3: Prompt Engineering for LLMs
+# Task 3: Prompt Engineering for LLMs
   Demonstrated Zero-Shot and Few-Shot Learning for activity classification.
   Compared Few-Shot Learning with Decision Trees quantitatively.
   Analyzed limitations of Zero-Shot and Few-Shot Learning.
   Tested model behavior with unseen activities and random data.
-#Task 4: Data Collection in the Wild
+# Task 4: Data Collection in the Wild
   Collected real-world accelerometer data using a mobile app.
   Preprocessed data and compared model performance on real-world data.
   Applied Few-Shot Learning to classify collected data.
@@ -45,5 +45,5 @@ These scripts generate train, test, and validation splits.
   Discrete and real outputs
   Used Information Gain (Entropy/Gini Index) for splitting.
   Validated implementation using usage.py.
-#Note
+# Note
   We have done it in group of four
